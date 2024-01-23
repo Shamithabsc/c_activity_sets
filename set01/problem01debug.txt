@@ -23,7 +23,7 @@ Breakpoint 1, main () at problem01.c:5
 (gdb) s
 My name is Shamitha6        return 0;
 (gdb) s
-7       }(gdb) s
+7       (gdb) s
 0x00401288 in __register_frame_info ()
 (gdb) s
 Single stepping until exit from function __register_frame_info,
