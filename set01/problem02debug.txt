@@ -1,0 +1,60 @@
+PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gcc problem02.c -O0 -g
+PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gdb problem02.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Shamita\Desktop\c_activity_sets\set01\problem02.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401463
+(gdb) b 7
+Breakpoint 2 at 0x402070: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 7.
+(gdb) b 9
+Note: breakpoint 2 also set at pc 0x402070.
+Breakpoint 3 at 0x402070: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 9.
+(gdb) b 10
+Note: breakpoints 2 and 3 also set at pc 0x402070.
+Breakpoint 4 at 0x402070: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 10.
+(gdb) b 11
+Note: breakpoints 2, 3 and 4 also set at pc 0x402070.
+Breakpoint 5 at 0x402070: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 11.
+(gdb) r
+Starting program: C:\Users\Shamita\Desktop\c_activity_sets\set01/problem02.exe 
+[New Thread 11544.0x3310]
+[New Thread 11544.0x184c]
+
+Breakpoint 2, __chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163     ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
+(gdb) b 6
+Note: breakpoints 2, 3, 4 and 5 also set at pc 0x402070.
+Breakpoint 6 at 0x402070: file ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S, line 6.
+(gdb) r
+The program being debugged has been started already.
+Start it from the beginning? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+Starting program: C:\Users\Shamita\Desktop\c_activity_sets\set01/problem02.exe 
+[New Thread 10632.0x2300]
+[New Thread 10632.0xec8]
+
+Breakpoint 2, __chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+165     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) n
+167     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) n
+168     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) n
+169     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) n
+177     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) n
+178     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+180     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) quit
