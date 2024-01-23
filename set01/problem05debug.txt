@@ -1,0 +1,79 @@
+PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gcc problem05.c -O0 -g
+PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gdb problem05.exe     
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Shamita\Desktop\c_activity_sets\set01\problem05.exe...done.
+(gdb) b input
+Breakpoint 1 at 0x401466
+(gdb) b compare
+Breakpoint 2 at 0x401490
+(gdb) r
+Starting program: C:\Users\Shamita\Desktop\c_activity_sets\set01/problem05.exe 
+[New Thread 9356.0x1b50]
+[New Thread 9356.0x1e70]
+
+Breakpoint 1, 0x00401466 in input ()
+(gdb) s
+Single stepping until exit from function input,
+which has no line number information.
+Enter the number:4
+0x0040150f in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+
+Breakpoint 1, 0x00401466 in input ()
+(gdb) s
+Single stepping until exit from function input,
+which has no line number information.
+Enter the number:4
+0x00401518 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+
+Breakpoint 1, 0x00401466 in input ()
+(gdb) s
+Single stepping until exit from function input,
+which has no line number information.
+Enter the number:5
+0x00401521 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+
+Breakpoint 2, 0x00401490 in compare ()
+(gdb) s
+Single stepping until exit from function compare,
+which has no line number information.
+0x00401541 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+The largest of 4,4 and 5 is 50x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 9356) exited normally]
+(gdb) s
+The program is not being run.
+(gdb) quit

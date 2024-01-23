@@ -1,0 +1,6 @@
+Enter number1:4
+Enter number2:5
+Enter number3:3
+The largest of 4194432,2867200 and 0 is 4194432
+# this occured because after using pointers I used ampercent(&) hence got random values 
+which was corrected after removing &.
