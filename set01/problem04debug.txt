@@ -1,5 +1,5 @@
-PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gcc problem02.c -O0 -g
-PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gdb problem02.exe
+PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gcc problem04.c -O0 -g
+PS C:\Users\Shamita\Desktop\c_activity_sets\set01> gdb problem04.exe     
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -9,21 +9,25 @@ and "show warranty" for details.
 This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from C:\Users\Shamita\Desktop\c_activity_sets\set01\problem02.exe...done.
-(gdb) b main
-Breakpoint 1 at 0x401463
+Reading symbols from C:\Users\Shamita\Desktop\c_activity_sets\set01\problem04.exe...done.
+(gdb) b input
+Breakpoint 1 at 0x401466
 (gdb) r
-Starting program: C:\Users\Shamita\Desktop\c_activity_sets\set01/problem02.exe 
-[New Thread 9336.0x2838]
-[New Thread 9336.0x2a60]
+Starting program: C:\Users\Shamita\Desktop\c_activity_sets\set01/problem04.exe 
+[New Thread 10296.0x2478]
+[New Thread 10296.0x24f0]
 
-Breakpoint 1, 0x00401463 in main ()
+Breakpoint 1, 0x00401466 in input ()
+(gdb) s
+Single stepping until exit from function input,
+which has no line number information.
+Enter the value of number1:4
+Enter the value of number2:5
+0x00401506 in main ()
 (gdb) s
 Single stepping until exit from function main,
 which has no line number information.
-Enter value of number1:4
-Enter value of number2:7
-The sum of 4 and 7 is 110x00401288 in __register_frame_info ()
+The sum of 4 and 5 is 90x00401288 in __register_frame_info ()
 (gdb) s
 Single stepping until exit from function __register_frame_info,
 which has no line number information.
@@ -39,9 +43,7 @@ which has no line number information.
 (gdb) s
 Single stepping until exit from function __register_frame_info,
 which has no line number information.
-[Inferior 1 (process 9336) exited normally]
-(gdb) s
-The program is not being run.
+[Inferior 1 (process 10296) exited normally]
 (gdb) s
 The program is not being run.
 (gdb) quit
