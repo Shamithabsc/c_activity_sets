@@ -1,0 +1,92 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> gcc -g -O0 problem08.c
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> gdb problem08.exe     
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Shamita\Documents\PSC\c_activity_sets\set01\problem08.exe...done.
+(gdb) b input_array
+Breakpoint 1 at 0x401490
+(gdb) b sum_n_array
+Breakpoint 2 at 0x4014e3
+(gdb) b main
+Breakpoint 3 at 0x40154a
+(gdb) r
+Starting program: C:\Users\Shamita\Documents\PSC\c_activity_sets\set01/problem08.exe 
+[New Thread 9404.0x1b98]
+[New Thread 9404.0x32f8]
+
+Breakpoint 3, 0x0040154a in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Enter the size of array:4
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163     ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
+(gdb) s
+165     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+167     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+168     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+169     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+177     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+178     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+180     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+182     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+184     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+0x0040158b in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+
+Breakpoint 1, 0x00401490 in input_array ()
+(gdb) s
+Single stepping until exit from function input_array,
+which has no line number information.
+Enter 1 values:s
+Enter 2 values:Enter 3 values:Enter 4 values:0x004015af in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+
+Breakpoint 2, 0x004014e3 in sum_n_array ()
+(gdb) s
+Single stepping until exit from function sum_n_array,
+which has no line number information.
+0x004015c1 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+The sum of 4 numbers is 84002920x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 9404) exited normally]
+(gdb) s
+The program is not being run.
+(gdb) quit
