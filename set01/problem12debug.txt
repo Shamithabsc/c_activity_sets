@@ -1,0 +1,118 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> gcc -g -O0 problem12.c
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> gdb problem12.exe     
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Shamita\Documents\PSC\c_activity_sets\set01\problem12.exe...done.
+(gdb) b add
+Breakpoint 1 at 0x401526
+(gdb) b add_n_complex
+Breakpoint 2 at 0x40154a
+(gdb) b main
+Breakpoint 3 at 0x401648
+(gdb) r
+Starting program: C:\Users\Shamita\Documents\PSC\c_activity_sets\set01/problem12.exe 
+[New Thread 7728.0x7dc]
+[New Thread 7728.0x3b4]
+
+Breakpoint 3, 0x00401648 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Enter the n numbers:3
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163     ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
+(gdb) s
+165     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+167     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+168     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+169     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+177     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+178     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb)
+180     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+182     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb)
+184     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb)
+0x00401689 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Enter the 1 number
+Enter the real and imaginary part of complex number:2 3
+Enter the 2 number
+Enter the real and imaginary part of complex number:2 3
+Enter the 3 number
+Enter the real and imaginary part of complex number:2 3
+
+Breakpoint 2, 0x0040154a in add_n_complex ()
+(gdb) s
+Single stepping until exit from function add_n_complex,
+which has no line number information.
+
+Breakpoint 1, 0x00401526 in add ()
+(gdb) s
+Single stepping until exit from function add,
+which has no line number information.
+0x0040158f in add_n_complex ()
+(gdb) s
+Single stepping until exit from function add_n_complex,
+which has no line number information.
+
+Breakpoint 1, 0x00401526 in add ()
+(gdb) s
+Single stepping until exit from function add,
+which has no line number information.
+0x0040158f in add_n_complex ()
+(gdb) s
+Single stepping until exit from function add_n_complex,
+which has no line number information.
+
+Breakpoint 1, 0x00401526 in add ()
+(gdb) s
+Single stepping until exit from function add,
+which has no line number information.
+0x0040158f in add_n_complex ()
+(gdb) s
+Single stepping until exit from function add_n_complex,
+which has no line number information.
+0x004016bf in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+The sum of 3 numbers:
+Complex number 1: 2.000000+3.000000
+Complex number 2: 2.000000+3.000000
+Complex number 3: 2.000000+3.000000The result is:8.000000+12.000000i0x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 7728) exited normally]
+(gdb) s
+The program is not being run.
+(gdb) quit
