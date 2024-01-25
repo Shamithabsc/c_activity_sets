@@ -1,0 +1,16 @@
+WHAT IS COMPILER?
+Compiler, computer software that translates (compiles) source code written in a high-level language (e.g., C++) into a set of 
+machine-language instructions that can be understood by a digital computer's CPU.
+
+ WHAT IS HASH?
+ A Hash Function is a function that converts a given numeric or alphanumeric key to a small practical integer value. 
+ The mapped integer value is used as an index in the hash table. In simple terms, a hash function maps a significant number or string to a
+ small integer that can be used as the index in the hash table.
+
+//What is a preprocessor?
+
+//Preprocessor of GCC will process line starting with #.
+
+//WHAT IS THE PROCESS FOR LINES STARTING WITH # USING PREPROCESSOR?
+
+//#include<stdio.h> stdio.h is a header file containing function prototypes.  
