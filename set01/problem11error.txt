@@ -1,0 +1,6 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem11.c -o problem11 } ; if ($?) { .\problem11 }
+Enter the real and imaginary part of complex number:45 2
+Enter the real and imaginary part of complex number:23
+2
+The sum of 45.000000+2.000000i and 23.000000+2.000000i is 68.000000+4.000000i

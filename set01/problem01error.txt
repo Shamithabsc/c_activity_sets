@@ -1,0 +1,5 @@
+gcc -g -O0 problem01.c -o problem01.exe
+.\problem01.exe
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem01.c -o problem01 } ; if ($?) { .\problem01 }
+My name is Shamitha

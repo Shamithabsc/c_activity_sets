@@ -1,0 +1,4 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem07.c -o problem07 } ; if ($?) { .\problem07 }
+Enter number:45
+The sum of 45 numbers is 1035

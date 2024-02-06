@@ -1,0 +1,17 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem12.c -o problem12 } ; if ($?) { .\problem12 }
+Enter the n numbers:4
+Enter the 1 number
+Enter the real and imaginary part of complex number:2 4 
+Enter the 2 number
+Enter the real and imaginary part of complex number:2 4
+Enter the 3 number
+Enter the real and imaginary part of complex number: 2 4
+Enter the 4 number
+Enter the real and imaginary part of complex number:
+2 3
+The sum of 4 numbers:
+Complex number 1: 2.000000+4.000000
+Complex number 2: 2.000000+4.000000
+Complex number 3: 2.000000+4.000000
+Complex number 4: 2.000000+3.000000
+The result is:10.000000+19.000000i

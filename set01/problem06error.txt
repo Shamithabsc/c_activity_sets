@@ -4,3 +4,10 @@ Enter number3:3
 The largest of 4194432,2867200 and 0 is 4194432
 # this occured because after using pointers I used ampercent(&) hence got random values 
 which was corrected after removing &.
+
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem06.c -o problem06 } ; if ($?) { .\problem06 }
+Enter number1:4
+Enter number2:4
+Enter number3:5
+The largest of 4,4 and 5 is 5

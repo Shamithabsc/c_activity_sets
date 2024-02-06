@@ -1,0 +1,6 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem05.c -o problem05 } ; if ($?) { .\problem05 }
+Enter the number:4
+Enter the number:3
+Enter the number:4
+The largest of 4,3 and 4 is 4

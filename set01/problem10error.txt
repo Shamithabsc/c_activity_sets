@@ -1,0 +1,5 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem10.c -o problem10 } ; if ($?) { .\problem10 }
+Enter string 1:hello 
+Enter string 2:hellw
+hellw is greater than hello

@@ -1,0 +1,4 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> gcc -g -O0 problem09.c -o problem09.exe
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> .\problem09.exe
+Enter the number to find square root:49
+The squareroot of 49.00 is 7.00

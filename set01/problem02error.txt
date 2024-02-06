@@ -1,0 +1,5 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set01\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+Enter value of number1:3
+Enter value of number2:4
+The sum of 3 and 4 is 7

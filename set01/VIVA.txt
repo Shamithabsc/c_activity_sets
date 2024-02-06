@@ -1,16 +1,53 @@
-WHAT IS COMPILER?
-Compiler, computer software that translates (compiles) source code written in a high-level language (e.g., C++) into a set of 
-machine-language instructions that can be understood by a digital computer's CPU.
+ What is hash?
+ lines to be added by preprocessor.
 
- WHAT IS HASH?
- A Hash Function is a function that converts a given numeric or alphanumeric key to a small practical integer value. 
- The mapped integer value is used as an index in the hash table. In simple terms, a hash function maps a significant number or string to a
- small integer that can be used as the index in the hash table.
+ What is a preprocessor?
+A preprocessor processes C starting with #(hash) to C without #
 
-//What is a preprocessor?
+ WHAT IS COMPILER?
+It is a software that converts any programming language such that a device's CPU can understand.
+.c to .exe
 
-//Preprocessor of GCC will process line starting with #.
+ What is preprocessor directive?
+It converts the numeric value to integer value.
 
-//WHAT IS THE PROCESS FOR LINES STARTING WITH # USING PREPROCESSOR?
+ What is the effect of #include<stdio.h>
+preprocessor converts all lines containing # into without #
+# is to be included to all the function prototypes present in the header file <stdio.h>
 
-//#include<stdio.h> stdio.h is a header file containing function prototypes.  
+ What is stdio.h?
+stdio.h is a header file containing function prototypes. 
+ 
+ What is a function prototype?
+Consists of return type, function name, and list of arguements.
+
+ What is the use of function prototype?
+Used to compile to check function call is passing right number of parameter, right type of parameter and return value is asigned to
+right type of variable.
+
+ What is int main(){
+....}
+Main is a function.
+main return an integer.
+main is the starting point (main function) of a program.
+
+ What is int main(){
+    printf("My name is Shamitha\n"); "My name is Shamitha" this is a format string.
+ }
+
+ What is \ ?
+It is to escape from the string. (ig)
+
+ What is meaning of '\n'in format string?
+Move cursor to new line in terminal.
+
+ What is printf?
+ Printf is a std library function use to print a string on the console/terminal/screen/std out.
+
+ What is int main(){
+    printf("My name is Shamitha\n");
+    return 0;
+ }
+
+ What does return statement do?
+Tranfers control from called function to calling function and returns a value.
