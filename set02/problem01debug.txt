@@ -1,0 +1,58 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> gcc -g -O0 problem01.c  
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> gdb problem01.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Shamita\Documents\PSC\c_activity_sets\set02\problem01.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x4014ef
+(gdb) r
+Starting program: C:\Users\Shamita\Documents\PSC\c_activity_sets\set02/problem01.exe 
+[New Thread 1488.0x2424]
+[New Thread 1488.0x1818]
+
+Breakpoint 1, 0x004014ef in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Enter the base value:4
+Enter the height value:5
+The area of the traingle with base 4.000000 and height 5.000000 is 10.0000000x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) s
+0x00401292 in __register_frame_info ()
+(gdb) quit
+A debugging session is active.
+
+
+Quit anyway? (y or n) y
+error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> git add . 
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> git commit -m "test"
+[main aac0c83] test
+ 5 files changed, 55 insertions(+), 3 deletions(-)
+ create mode 100644 set02/problem01debug.txt
+ create mode 100644 set02/problem01error.txt
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> git push
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.00 KiB | 342.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Shamithabsc/c_activity_sets
+   a41fdab..aac0c83  main -> main
