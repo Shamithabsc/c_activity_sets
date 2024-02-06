@@ -1,0 +1,19 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+Enter the value of side:3
+Enter the value of side:4
+The triangle is scalene as side 3,4,4 are not equal
+At line:1 char:18
++     a=input_side();
++                  ~
+An expression was expected after '('.
+    + FullyQualifiedErrorId : ExpectedExpression
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+Enter the value of side:3
+Enter the value of side:4
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+Enter the value of side:4
+The traingle is NOT scalene
+
+The error occured as I hadn't used two '=' signs hence not equating the return value to isscalene.(in output function)
