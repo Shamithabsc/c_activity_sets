@@ -1,0 +1,5 @@
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set01> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem01.c -o problem01 } ; if ($?) { .\problem01 }
+Enter the base value:54
+Enter the height value:45
+The area of the traingle with base 54.000000 and height 45.000000 is 1215.000000
