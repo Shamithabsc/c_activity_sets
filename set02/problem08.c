@@ -38,5 +38,12 @@ void find_n_areas(int n, Triangle t[n])
      printf("The Area of %d triangle is %f\n",i+1, t[i].area);
   }
 }
-Triangle find_smallest_triangle(int n, Triangle t[n]);
+Triangle find_smallest_triangle(int n, Triangle t[n]){
+	Triangle smallest = t[0];
+for(int i = 1; i< n; i++) {
+    find_area(&t[i]);
+    if(t[i].area < smallest.area) {
+        smallest = t[i];
+    }
+}
 void output(int n, Triangle t[n], Triangle smallest);
