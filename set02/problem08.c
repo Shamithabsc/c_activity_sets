@@ -46,4 +46,5 @@ for(int i = 1; i< n; i++) {
         smallest = t[i];
     }
 }
+}
 void output(int n, Triangle t[n], Triangle smallest);
