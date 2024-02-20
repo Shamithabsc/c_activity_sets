@@ -1,0 +1,79 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem04.c -o problem04 } ; if ($?) { .\problem04 }
+Enter the size of the array:3
+Enter the value of 1 array:4
+Enter the value of 2 array:2
+Enter the value of 3 array:6
+The sum of composite numbers is 12
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> gcc -g -O0 problem04.c
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> gdb problem04.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\problem04.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401543
+(gdb) r
+Starting program: C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02/problem04.exe 
+[New Thread 10156.0x27ec]
+[New Thread 10156.0x1ce4]
+
+Breakpoint 1, 0x00401543 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Enter the size of the array:4
+__chkstk_ms () at ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:163
+163     ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S: No such file or directory.
+(gdb) s
+165     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+167     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+168     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+169     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+177     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+178     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+180     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+182     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+184     in ../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S
+(gdb) s
+0x00401584 in main ()
+(gdb) s 
+Single stepping until exit from function main,
+which has no line number information.
+Enter the value of 1 array:2
+Enter the value of 2 array:4
+Enter the value of 3 array:6
+Enter the value of 4 array:8
+The sum of composite numbers is 200x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 10156) exited normally]
+(gdb) s
+The program is not being run.
+(gdb) quit

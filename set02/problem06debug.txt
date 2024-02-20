@@ -1,5 +1,10 @@
-PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> gcc -g -O0 problem05.c
-PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> gdb problem05.exe
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem06.c -o problem06 } ; if ($?) { .\problem06 }
+Enter a string:Hello
+The string to be reversed is Hello
+The reversed string is:olleH
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> gcc -g -O0 problem06.c
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> gdb problem06.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
@@ -9,24 +14,21 @@ and "show warranty" for details.
 This GDB was configured as "mingw32".
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>...
-Reading symbols from C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\problem05.exe...done.
+Reading symbols from C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\problem06.exe...done.
 (gdb) b main
-Breakpoint 1 at 0x4014ff
-(gdb)
-Note: breakpoint 1 also set at pc 0x4014ff.
-Breakpoint 2 at 0x4014ff
+Breakpoint 1 at 0x40150c
 (gdb) r
-Starting program: C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02/problem05.exe 
-[New Thread 6856.0x3340]
-[New Thread 6856.0x1c94]
+Starting program: C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02/problem06.exe 
+[New Thread 11760.0xd58]
+[New Thread 11760.0x1ac4]
 
-Breakpoint 1, 0x004014ff in main ()
+Breakpoint 1, 0x0040150c in main ()
 (gdb) s
 Single stepping until exit from function main,
 which has no line number information.
-Enter the value to find gcd:32
-Enter the value to find gcd:34
-The gcd of 32 and 34 is 2
+Enter a string:hello
+The string to be reversed is hello
+The reversed string is:olleh
 0x00401288 in __register_frame_info ()
 (gdb) s
 Single stepping until exit from function __register_frame_info,
@@ -43,7 +45,7 @@ which has no line number information.
 (gdb) s
 Single stepping until exit from function __register_frame_info,
 which has no line number information.
-[Inferior 1 (process 6856) exited normally]
+[Inferior 1 (process 11760) exited normally]
 (gdb) s
 The program is not being run.
 (gdb) quit

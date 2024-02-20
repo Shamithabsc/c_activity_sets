@@ -1,0 +1,5 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem05.c -o problem05 } ; if ($?) { .\problem05 }
+Enter the value to find gcd:32
+Enter the value to find gcd:34
+The gcd of 32 and 34 is 2

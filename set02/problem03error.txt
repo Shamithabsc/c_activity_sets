@@ -1,0 +1,4 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem03.c -o problem03 } ; if ($?) { .\problem03 }
+Enter the number:3
+3 is not a composite number

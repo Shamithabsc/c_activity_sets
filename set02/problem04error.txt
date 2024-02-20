@@ -1,0 +1,6 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem04.c -o problem04 } ; if ($?) { .\problem04 }
+Enter the size of the array:3
+Enter the value of 1 array:4
+Enter the value of 2 array:2
+Enter the value of 3 array:6
+The sum of composite numbers is 12
