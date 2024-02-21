@@ -1,0 +1,54 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03\" ; if ($?) { gcc problem01.c -o problem01 } ; if ($?) { .\problem01 }
+Enter the x-coordinate of 1st point:2
+Enter the y-coordinate of 1st point:5
+Enter the x-coordinate of 2nd point:3
+Enter the y-coordinate of 2nd point:4
+The distance between point (2.000000, 5.000000) and (3.000000, 4.000000) is 1.414214
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03> gcc -g -O0 problem01.c
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03> gdb problem01.exe     
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03\problem01.exe...done.
+(gdb) b main
+Breakpoint 1 at 0x401570
+(gdb) r
+Starting program: C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03/problem01.exe 
+[New Thread 1484.0x2258]
+[New Thread 1484.0x24f0]
+
+Breakpoint 1, 0x00401570 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Enter the x-coordinate of 1st point:3
+Enter the y-coordinate of 1st point:4
+Enter the x-coordinate of 2nd point:2
+Enter the y-coordinate of 2nd point:5
+The distance between point (3.000000, 4.000000) and (2.000000, 5.000000) is 1.4142140x00401288 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128a in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x0040128f in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+0x00401292 in __register_frame_info ()
+(gdb) s
+Single stepping until exit from function __register_frame_info,
+which has no line number information.
+[Inferior 1 (process 1484) exited normally]
+(gdb) s
+The program is not being run.
+(gdb) quit

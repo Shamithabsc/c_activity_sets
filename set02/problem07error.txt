@@ -1,0 +1,5 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem07.c -o problem07 } ; if ($?) { .\problem07 }
+Enter the base value:3
+Enter the altitude value:4
+The area of triangle is 6.000000

@@ -1,0 +1,7 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03\" ; if ($?) { gcc problem01.c -o problem01 } ; if ($?) { .\problem01 }
+Enter the x-coordinate of 1st point:2
+Enter the y-coordinate of 1st point:5
+Enter the x-coordinate of 2nd point:3
+Enter the y-coordinate of 2nd point:4
+The distance between point (2.000000, 5.000000) and (3.000000, 4.000000) is 1.414214
