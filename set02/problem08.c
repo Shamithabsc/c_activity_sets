@@ -21,10 +21,15 @@ Triangle input_triangle(){
 	return t;
 }
 void input_n_triangles(int n, Triangle t[n]);
-void find_area(Triangle *t);
-void find_n_areas(int n, Triangle t[n]);
-Triangle find_smallest_triangle(int n, Triangle t[n]);
-void output(int n, Triangle t[n], Triangle smallest);
+
+void find_area(Triangle *t)
+{}
+void find_n_areas(int n, Triangle t[n])
+{}
+Triangle find_smallest_triangle(int n, Triangle t[n])
+{}
+void output(int n, Triangle t[n], Triangle smallest)
+{}
 int main(){
 	 int n;
     n = input_n();
