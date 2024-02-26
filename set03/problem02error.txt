@@ -1,0 +1,21 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+problem02.c: In function 'is_triangle':
+problem02.c:20:20: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     float side1 =  sqrt(pow(x2-x1,2) + pow(y2-y1,2));
+                    ^~~~
+problem02.c:20:20: warning: incompatible implicit declaration of built-in function 'sqrt'
+problem02.c:20:25: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+     float side1 =  sqrt(pow(x2-x1,2) + pow(y2-y1,2));
+                         ^~~
+problem02.c:20:25: warning: incompatible implicit declaration of built-in function 'pow'
+problem02.c:20:25: note: include '<math.h>' or provide a declaration of 'pow'
+Enter the x-coordinate of 1st point:cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03"
+Enter the y-coordinate of 1st point:Enter the x-coordinate of 2nd point:Enter the y-coordinate of 2nd point:Enter the x-coordinate of 3rd point:Enter t02.c -o problem02 } ; if ($?) { .\problem02 }
+Enter the x-coordinate of 1st point:1
+Enter the y-coordinate of 1st point:2
+Enter the x-coordinate of 2nd point:3
+Enter the y-coordinate of 2nd point:4
+Enter the x-coordinate of 3rd point:2
+Enter the y-coordinate of 3rd point:1
+The points (1.000000, 2.000000), (3.000000, 4.000000) and (2.000000, 1.000000) forms a triangle
