@@ -1,0 +1,16 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set02\" ; if ($?) { gcc problem08.c -o problem08 } ; if ($?) { .\problem08 }
+Enter number of triangles:3
+Enter the 1 traingle
+Enter the base:2    
+Enter the altitude:3
+Enter the 2 traingle
+Enter the base:2    
+Enter the altitude:3
+Enter the 3 traingle
+Enter the base:4
+Enter the altitude:0
+The area of 1 triangle is 3.000000
+The area of 2 triangle is 3.000000
+The area of 3 triangle is 0.000000
+The smallest triangle from 3 triangles is 0.000000
