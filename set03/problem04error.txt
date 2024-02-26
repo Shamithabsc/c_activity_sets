@@ -1,0 +1,34 @@
+PS C:\Users\Shamita\Documents\SEM 2\PSC> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03"
+PS C:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03> cd "c:\Users\Shamita\Documents\SEM 2\PSC\c_activity_sets\set03\" ; if ($?) { gcc problem04.c -o problem04 } ; if ($?) { .\problem04 }
+Enter the number:32
+the 2 number:1 
+the 3 number:1 
+the 4 number:2 
+the 5 number:3 
+the 6 number:5 
+the 7 number:8 
+the 8 number:13
+the 9 number:21
+the 10 number:34
+the 11 number:55
+the 12 number:89
+the 13 number:144
+the 14 number:233
+the 15 number:377
+the 16 number:610
+the 17 number:987
+the 18 number:1597
+the 19 number:2584
+the 20 number:4181
+the 21 number:6765
+the 22 number:10946
+the 23 number:17711
+the 24 number:28657
+the 26 number:75025
+the 27 number:121393
+the 28 number:196418
+the 29 number:317811
+the 30 number:514229
+the 31 number:832040
+the 32 number:1346269
+fibo(32)= 2178309
