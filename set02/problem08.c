@@ -47,11 +47,11 @@ Triangle find_smallest_triangle(int n, Triangle t[n])
 			smallest = t[i];
 		}
 	}
+	return smallest;
 }
-void output(int n, Triangle smallest)
+void output(int n, Triangle t[],Triangle smallest)
 {
-
-	printf("The smallest triangle from %d triangles is %f\n",n,smallest);
+	printf("The smallest triangle from %d triangles is %f\n",n,smallest.area);
 }
 int main(){
 	 int n;
@@ -60,6 +60,6 @@ int main(){
     input_n_triangles(n,t);
     find_n_areas(n,t);
     smallest = find_smallest_triangle(n,t);
-    output(n,smallest);
+    output(n,t,smallest);
     return 0;
 }
