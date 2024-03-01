@@ -32,7 +32,7 @@ Complex add(Complex a, Complex b){
 }
 Complex add_n_complex(int n, Complex c[n]){
     Complex sum= c[0];
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
         sum = add(sum,c[i]);
     }
@@ -41,7 +41,7 @@ Complex add_n_complex(int n, Complex c[n]){
 void output(int n, Complex c[n], Complex result){
     printf("The sum of %d numbers:",n);
     for(int i=0; i<n;i++){
-        printf("\nComplex number %d: %f+%f",i+1,c[i].real,c[i].imaginary);
+        printf("\nComplex number %d: %f+%fi",i+1,c[i].real,c[i].imaginary);
     }
     printf("\nThe result is:%f+%fi",result.real,result.imaginary);
 }
