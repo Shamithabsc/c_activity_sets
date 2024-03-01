@@ -9,9 +9,9 @@ int input_array_size(){
 }
 void init_array(int n, int a[n])
 {
-     for (int i = 2; i <= n; i++) {
-        a[i] = i;
+       for(int i = 2; i <= n;i++) {
+      a[i] = 1;
     }
-}   
+}
 void erotosthenes_sieve(int n, int a[n]);
 void output(int n, int a[n]);
